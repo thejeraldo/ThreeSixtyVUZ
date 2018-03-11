@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SVProgressHUD
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
     // Override point for customization after application launch.
+
+    setupAppAppearance()
+    setupSVProgressHUD()
+
     return true
   }
 
@@ -42,5 +47,37 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   }
 
 
+}
+
+// MARK: - Customizations
+
+extension AppDelegate {
+  func setupAppAppearance() {
+    // Status Bar
+    UIApplication.shared.statusBarStyle = .lightContent
+
+    // Navigation Bar
+    UINavigationBar.appearance().barTintColor = UIColor(named: Color.primaryDark)
+    UINavigationBar.appearance().tintColor = UIColor.white
+    UINavigationBar.appearance().titleTextAttributes = [
+      NSAttributedStringKey.font: UIFont(name: Font.monofonto, size: 20) as Any,
+      NSAttributedStringKey.foregroundColor: UIColor.white
+    ]
+    UINavigationBar.appearance().largeTitleTextAttributes = [
+      NSAttributedStringKey.font: UIFont(name: Font.monofonto, size: 34) as Any,
+      NSAttributedStringKey.foregroundColor: UIColor.white
+    ]
+
+    // Search Bar
+    UISearchBar.appearance().tintColor = UIColor.white
+
+    // Tab Bar
+    UITabBar.appearance().unselectedItemTintColor = UIColor.gray
+    UITabBar.appearance().tintColor = UIColor(named: Color.primaryLight)
+  }
+  
+  func setupSVProgressHUD() {
+    SVProgressHUD.setDefaultStyle(.dark)
+  }
 }
 

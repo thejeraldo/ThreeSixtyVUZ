@@ -1,6 +1,13 @@
 # 360VUZ
 ---
-### HOME
+
+## TODO
+* 360 video player
+* Video player controls
+
+## Screenshots
+
+### Home
 ![alt text](https://github.com/thejeraldo/ThreeSixtyVUZ/blob/master/Screenshots/home.PNG?raw=true "Home")
 
 ### Videos

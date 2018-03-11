@@ -41,6 +41,7 @@
 		34CC3F51204D623C00A0E6C5 /* VideoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34CC3F50204D623C00A0E6C5 /* VideoTableViewCell.xib */; };
 		39E19BAFE6DE102E832F1CB7 /* Pods_ThreeSixtyVUZUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB09DBF896F34ED3804684A3 /* Pods_ThreeSixtyVUZUITests.framework */; };
 		8A611232BABB1B02BAA49C35 /* Pods_ThreeSixtyVUZ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21772D8DA9B11BBBB95C56A /* Pods_ThreeSixtyVUZ.framework */; };
+		C75F39F54102A674FFC1ACA3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C75F34375F14F31DDE705866 /* README.md */; };
 		EE213F50BF834759A67BD9A4 /* Pods_ThreeSixtyVUZTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C748A018C9A185B51AE8AA /* Pods_ThreeSixtyVUZTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -104,6 +105,7 @@
 		A6574CFC70EF7021E408E8F6 /* Pods-ThreeSixtyVUZ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeSixtyVUZ.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThreeSixtyVUZ/Pods-ThreeSixtyVUZ.release.xcconfig"; sourceTree = "<group>"; };
 		AB09DBF896F34ED3804684A3 /* Pods_ThreeSixtyVUZUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThreeSixtyVUZUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C21772D8DA9B11BBBB95C56A /* Pods_ThreeSixtyVUZ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThreeSixtyVUZ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75F34375F14F31DDE705866 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DD804F77AC734C338F7B4DCB /* Pods-ThreeSixtyVUZUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeSixtyVUZUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThreeSixtyVUZUITests/Pods-ThreeSixtyVUZUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E9EA542BF9EA5C4ED4A9AFAA /* Pods-ThreeSixtyVUZ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeSixtyVUZ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThreeSixtyVUZ/Pods-ThreeSixtyVUZ.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -163,6 +165,7 @@
 				34CB5E1A203CA14200606546 /* Products */,
 				46D59A35BE276961E9CC4B31 /* Pods */,
 				900E91166A726DBF746BCC20 /* Frameworks */,
+				C75F34375F14F31DDE705866 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -635,6 +638,7 @@
 				347D8C16204D4E4400AF210B /* CategoryViewModel.swift in Sources */,
 				34C3BF5E2055490F00E1291C /* Live360ViewController.swift in Sources */,
 				34CB5E62203D478900606546 /* Category.swift in Sources */,
+				C75F39F54102A674FFC1ACA3 /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

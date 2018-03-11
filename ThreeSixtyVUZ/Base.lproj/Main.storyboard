@@ -29,26 +29,6 @@
             </objects>
             <point key="canvasLocation" x="-303.19999999999999" y="-234.33283358320841"/>
         </scene>
-        <!--Live-->
-        <scene sceneID="j3A-ib-oND">
-            <objects>
-                <viewController id="Hrx-Oh-I6d" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="d5Y-o0-5Kb">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="ciq-76-DgF"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Live" image="playlist" id="MJY-GS-OcP">
-                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-2"/>
-                    </tabBarItem>
-                    <navigationItem key="navigationItem" id="juA-YU-NHu"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Yey-ww-gJ4" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1189.5999999999999" y="536.58170914542734"/>
-        </scene>
         <!--Account-->
         <scene sceneID="BaC-6P-uAb">
             <objects>
@@ -155,7 +135,7 @@
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="63" id="ENB-7K-UaM"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="ENB-7K-UaM"/>
                                 </constraints>
                             </stackView>
                         </subviews>
@@ -202,12 +182,35 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="Hrx-Oh-I6d" kind="relationship" relationship="rootViewController" id="xiq-m9-jkb"/>
+                        <segue destination="AUP-oY-UEd" kind="relationship" relationship="rootViewController" id="DfR-HN-bPZ"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YfR-T2-hAk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="414" y="537"/>
+        </scene>
+        <!--Live-->
+        <scene sceneID="70i-ws-yn3">
+            <objects>
+                <tableViewController storyboardIdentifier="Live360ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="AUP-oY-UEd" customClass="Live360ViewController" customModule="ThreeSixtyVUZ" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Ycq-Go-Nhe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <connections>
+                            <outlet property="dataSource" destination="AUP-oY-UEd" id="6Rj-kC-LIH"/>
+                            <outlet property="delegate" destination="AUP-oY-UEd" id="XoC-Iu-GuK"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Live" image="playlist" id="m0l-2e-TmM">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-2"/>
+                    </tabBarItem>
+                    <navigationItem key="navigationItem" id="IPi-EO-m6G"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cbR-nP-kGd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1110" y="537"/>
         </scene>
         <!--Account-->
         <scene sceneID="zQR-dK-kgd">

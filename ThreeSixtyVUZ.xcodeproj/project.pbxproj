@@ -18,6 +18,7 @@
 		345C95F320442F4F00571D70 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CB5E5F203D477F00606546 /* Video.swift */; };
 		347D8C14204C342B00AF210B /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347D8C13204C342B00AF210B /* VideoTableViewCell.swift */; };
 		347D8C16204D4E4400AF210B /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347D8C15204D4E4400AF210B /* CategoryViewModel.swift */; };
+		34C3BF5E2055490F00E1291C /* Live360ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C3BF5D2055490F00E1291C /* Live360ViewController.swift */; };
 		34CB5E1D203CA14200606546 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CB5E1C203CA14200606546 /* AppDelegate.swift */; };
 		34CB5E22203CA14200606546 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34CB5E20203CA14200606546 /* Main.storyboard */; };
 		34CB5E27203CA14200606546 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34CB5E25203CA14200606546 /* LaunchScreen.storyboard */; };
@@ -70,6 +71,7 @@
 		342BF32920428631006C8C62 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		347D8C13204C342B00AF210B /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		347D8C15204D4E4400AF210B /* CategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
+		34C3BF5D2055490F00E1291C /* Live360ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Live360ViewController.swift; sourceTree = "<group>"; };
 		34CB5E19203CA14200606546 /* ThreeSixtyVUZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeSixtyVUZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34CB5E1C203CA14200606546 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34CB5E21203CA14200606546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -245,6 +247,7 @@
 				34CB5E57203CA8B100606546 /* HomeViewController.swift */,
 				342BF327203E9953006C8C62 /* VideoViewController.swift */,
 				34CC3F4E204D613600A0E6C5 /* VideosViewController.swift */,
+				34C3BF5D2055490F00E1291C /* Live360ViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -630,6 +633,7 @@
 				34CB5E5A203CC64800606546 /* CategoriesHeaderView.swift in Sources */,
 				34CB5E60203D477F00606546 /* Video.swift in Sources */,
 				347D8C16204D4E4400AF210B /* CategoryViewModel.swift in Sources */,
+				34C3BF5E2055490F00E1291C /* Live360ViewController.swift in Sources */,
 				34CB5E62203D478900606546 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

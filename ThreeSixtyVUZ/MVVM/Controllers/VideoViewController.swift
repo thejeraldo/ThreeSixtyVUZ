@@ -44,6 +44,7 @@ class VideoViewController: UIViewController {
 
     self.titleLabel.text = videoViewModel?.titleText
     self.likesLabel.text = videoViewModel?.likesText
+    self.likesLabel.isHidden = (videoViewModel?.likesText.isEmpty == true)
     self.descriptionLabel.text = videoViewModel?.descriptionText
   }
 

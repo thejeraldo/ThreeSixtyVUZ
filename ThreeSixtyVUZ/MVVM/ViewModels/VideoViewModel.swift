@@ -14,7 +14,7 @@ class VideoViewModel {
   public let titleText: String
   public let imageURL: URL?
   public let videoURL: URL?
-  public let likesText: String
+  public var likesText: String
   public let descriptionText: String
   
   public init(video: Video) {
@@ -22,9 +22,12 @@ class VideoViewModel {
     titleText = video.title!
     imageURL = URL(string: video.image!)
     videoURL = URL(string: video.link!)
-    let viewsString = VideoViewModel.formatNumber(video.views)
-    let likesString = VideoViewModel.formatNumber(video.likes)
-    likesText = String(format: "%@ views · %@ likes", viewsString, likesString)
+    likesText = ""
+    if let _ = video.views, let _ = video.likes {
+      let viewsString = VideoViewModel.formatNumber(video.views!)
+      let likesString = VideoViewModel.formatNumber(video.likes!)
+      likesText = String(format: "%@ views · %@ likes", viewsString, likesString)
+    }
     descriptionText = video.videoDescription ?? ""
   }
   
